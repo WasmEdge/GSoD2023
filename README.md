@@ -1,6 +1,8 @@
 # WasmEdge Proposal for GSoD 2023
 
-## About our project
+## Project idea: Reorganize the contributor guide
+
+### About our project
 
 WasmEdge is a lightweight, high-performance, extensible, and OCI-compatible WebAssembly runtime. WasmEdge is hosted by CNCF and Linux Foundation.
 
@@ -8,15 +10,18 @@ There are two ways to run Wasm apps in WasmEdge. One is to embed WasmEdge into a
 
 WasmEdge powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.
 
-Doc site: https://wasmedge.org/book/en/
+WasmEdge is licensed under the Apache License 2.0 and was started in <YEAR>. WasmEdge has a large and healthy community with more than <N> contributors from <M> countries around the globe. Our community uses WasmEdge to <accomplish X,Y,Z> to have <benefits>.
 
-## Project idea: Reorganzie the contributor guide
+Our documentation is located at https://wasmedge.org/book/en/ .
 
 ### Problem
 
 WasmEdge plugins allow developers to add functionalities and features to the runtime. A plugin could package and register native host functions in the WasmEdge runtime. The Wasm bytecode program could then call those native host functions. 
 
 WasmEdge supports writing plugins in C, C++, and Rust. Each of the language SDKs for plugin development has code examples. However, the lack of official tutorials and reference documentation makes it difficult for community members to contribute new plugins.
+   
+> [aliok]: I would mention what would be the gained benefits when the problem above is solved.
+> Reduced support questions? Increased community growth? More plugins? Anything else?
 
 ### Project scope
 
