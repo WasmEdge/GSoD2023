@@ -1,22 +1,22 @@
 # WasmEdge Proposal for GSoD 2023
 
-## About our project
+## Project idea: Reorganize the contributor guide
+
+### About our project
 
 WasmEdge is a lightweight, high-performance, extensible, and OCI-compatible WebAssembly runtime. WasmEdge is hosted by CNCF and Linux Foundation.
 
+WasmEdge is licensed under the Apache License 2.0 and was started in 2019. WasmEdge has a large and healthy community with more than 132 contributors from [51 organizations](https://wasmedge.devstats.cncf.io/d/5/companies-table?orgId=1&var-period_name=Since%20joining%20CNCF&var-metric=contributions) and [27 countries and regions](https://wasmedge.devstats.cncf.io/d/18/overall-project-statistics-table?orgId=1&viewPanel=1) around the globe. Our community uses WasmEdge to power serverless apps, embedded functions like UDF and data flow functions, microservices, smart contracts, and IoT devices to have a lightweigeht (The size is just serveral MBs), fast (It could be started in milliseconds), and security runtime/container running untrusted code.
+
 There are two ways to run Wasm apps in WasmEdge. One is to embed WasmEdge into a host application. To that end, WasmEdge provides embedding SDKs in C/C++, Rust, Go, Java, and Python. The other way is to use WasmEdge as a standalone container (sandbox). The WasmEdge container could seamlessly integrate into existing container ecosystems like Kubernetes and Docker.
 
-WasmEdge powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.
-
-Doc site: https://wasmedge.org/book/en/
-
-## Project idea: Reorganzie the contributor guide
+Our documentation is located at https://github.com/WasmEdge/docs
 
 ### Problem
 
-WasmEdge plugins allow developers to add functionalities and features to the runtime. A plugin could package and register native host functions in the WasmEdge runtime. The Wasm bytecode program could then call those native host functions. 
+WasmEdge provides a flexible plug-in architecture that allows developers to add more functionalities to it and take advantage of its many integrations and distribution channels through extensive open source partnerships. A plugin could package and register native host functions in the WasmEdge runtime. The Wasm bytecode program could then call those native host functions. 
 
-WasmEdge supports writing plugins in C, C++, and Rust. Each of the language SDKs for plugin development has code examples. However, the lack of official tutorials and reference documentation makes it difficult for community members to contribute new plugins.
+WasmEdge supports writing plugins in C, C++, and Rust. Now each language SDK for plug-in development includes code examples. However, the absence of comprehensive tutorials and reference documentation can be challenging for community members who want to contribute new plugins. By providing well-structured documentation, the process of developing plugins becomes more straightforward and accessible. This will result in an increase in the number of WasmEdge plugins, ultimately benefiting every WasmEdge user through community contributions.
 
 ### Project scope
 
