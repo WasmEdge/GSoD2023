@@ -92,4 +92,4 @@ WasmEdge once participated in GSoC 2022. The project was to implement WASI and w
 
 ## Contact us
 
-If you are a Technical Writer and you are interested in contributing to the WasmEdge community for Google Season of Docs 2023, Please send your proposal (by following the template of writing the statement of interest from Google) to our mail at: info@wasmedge.org
+If you are a Technical Writer and you are interested in contributing to the WasmEdge community for Google Season of Docs 2023, Please send your proposal (by following the template of writing the statement of interest from Google) to our mail at: vivian at secondstate.io.
