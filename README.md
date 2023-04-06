@@ -79,11 +79,11 @@ This project is estimated to take three months to complete. First, we will spend
 ## Project budget
 | Budget items | Amount | Running Total | Notes |
 | -------- | -------- | -------- |-------- |
-| Technical writer to review, update, test, and publish new documentation of the WasmEdge Plug-in | 4000     | 4000    |
-| Technical writer to review, update, test, and publish documentation of the WasmEdge contribution guide, excluding the plug-in part     | 3000     | 7000    |
-| Volunteer stipends    | 1200    | 8200    |3 volunteer stipends x $400 each|
-| Project SWAG including T-shirts, stickers and shipping fee | 300    | 8500    |10 T-shirts x $30 each|
-| Total  | 8500  |
+| Technical writer to review, update, test, and publish new documentation of the WasmEdge Plug-in | USD $4000     | USD $4000   |
+| Technical writer to review, update, test, and publish documentation of the WasmEdge contribution guide, excluding the plug-in part     | USD $3000     | USD $7000    |
+| Volunteer stipends    | USD $1200    | USD $8200    |3 volunteer stipends x $400 each|
+| Project SWAG including T-shirts, stickers and shipping fee | USD $300    | USD $8500    |10 T-shirts x $30 each|
+| Total  | USD $8500  |
 
 
 ### Additional information
